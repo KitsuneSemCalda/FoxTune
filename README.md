@@ -1,14 +1,20 @@
 # FoxTune
 
-A little configurator to turn the linux desktop in a responsive machine without heavy manual configuration
+![Perl](https://img.shields.io/badge/language-Perl-39457e)
+![Linux](https://img.shields.io/badge/platform-Linux-blue)
+![Status](https://img.shields.io/badge/status-Experimental-yellow)
 
 ## Overview
 
-FoxTune is a post-installation tuning tool for Linux desktops. Its goal is to optimize system responsiveness by applying sensible kernel and I/O settings based on the user's hardware, without installing additional applications or altering the system fundamentally.
+FoxTune is a **post-installation tuning tool** for Linux desktops, focused on **responsiveness**.  
+
+> The goal is to **improve interactive performance** for desktop users, without installing additional software or manually tweaking low-level settings.
 
 ## Motivation
 
-Linux defaults are safe but generic. FoxTune bridges the gap between safe defaults and optimal responsiveness on modern desktops, without forcing the user to manually tweak low-level settings.
+Linux defaults are safe but generic.
+
+FoxTune bridges the gap between safe defaults and optimal responsiveness on modern desktops, without forcing the user to manually tweak low-level settings.
 
 ## Usage
 
