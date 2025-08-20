@@ -44,7 +44,7 @@ foreach my $device ( @devices ) {
   my $udev_file = "/etc/udev/rules.d/60-foxtune-$dev_name.rules";
   my $udev_rule = qq(ACTION=="add|change", KERNEL=="$dev_name", ATTR{queue/scheduler}="$scheduler");
   
-  if (is_root() && -w "$udev_file") {
+  if (is_root()) {
     open my $ufh, '>', $udev_file or warn "Cannot write $udev_file: $!\n";
     print $ufh "$udev_rule\n";
     close $ufh;
