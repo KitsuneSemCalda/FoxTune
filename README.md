@@ -19,5 +19,5 @@ FoxTune bridges the gap between safe defaults and optimal responsiveness on mode
 ## Usage
 
 ```bash
-sudo perl foxtune.pl
+sudo perl src/foxtune.pl
 ```
